@@ -5,8 +5,8 @@
     <classes>
       <class name="test.MyFirstTest">
         <methods>
-          <include name="skipping"/>
           <include name="initDrivers"/>
+          <include name="testingFramework"/>
         </methods>
       </class> <!-- test.MyFirstTest -->
     </classes>
