@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8409" started-at="2018-05-02T02:28:58Z" finished-at="2018-05-02T02:29:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8409" started-at="2018-05-02T02:28:58Z" finished-at="2018-05-02T02:29:06Z">
+      <class name="test.mySecondTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test.mySecondTest@f6c48ac]" name="beforeSuite" is-config="true" duration-ms="27" started-at="2018-05-02T02:28:58Z" finished-at="2018-05-02T02:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.mySecondTest@f6c48ac]" name="beforeClass" is-config="true" duration-ms="2" started-at="2018-05-02T02:29:06Z" finished-at="2018-05-02T02:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.mySecondTest@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-05-02T02:29:06Z" finished-at="2018-05-02T02:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="myTst()[pri:1, instance:test.mySecondTest@f6c48ac]" name="myTst" duration-ms="3" started-at="2018-05-02T02:29:06Z" finished-at="2018-05-02T02:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTst -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.mySecondTest@f6c48ac]" name="afterMethod" is-config="true" duration-ms="3" started-at="2018-05-02T02:29:06Z" finished-at="2018-05-02T02:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.mySecondTest@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-05-02T02:29:06Z" finished-at="2018-05-02T02:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="myTest2()[pri:2, instance:test.mySecondTest@f6c48ac]" name="myTest2" duration-ms="5" started-at="2018-05-02T02:29:06Z" finished-at="2018-05-02T02:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.mySecondTest@f6c48ac]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-05-02T02:29:06Z" finished-at="2018-05-02T02:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.mySecondTest@f6c48ac]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-05-02T02:29:06Z" finished-at="2018-05-02T02:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.mySecondTest@f6c48ac]" name="afterTest" is-config="true" duration-ms="7" started-at="2018-05-02T02:29:06Z" finished-at="2018-05-02T02:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.mySecondTest@f6c48ac]" name="afterSuite" is-config="true" duration-ms="1" started-at="2018-05-02T02:29:07Z" finished-at="2018-05-02T02:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.mySecondTest -->
+      <class name="test.MyFirstTest">
+        <test-method status="PASS" signature="initDrivers()[pri:0, instance:test.MyFirstTest@13deb50e]" name="initDrivers" is-config="true" duration-ms="8038" started-at="2018-05-02T02:28:58Z" finished-at="2018-05-02T02:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDrivers -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.mySecondTest@f6c48ac]" name="beforeTest" is-config="true" duration-ms="1" started-at="2018-05-02T02:29:06Z" finished-at="2018-05-02T02:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testingFramework()[pri:0, instance:test.MyFirstTest@13deb50e]" name="testingFramework" duration-ms="297" started-at="2018-05-02T02:29:06Z" finished-at="2018-05-02T02:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingFramework -->
+      </class> <!-- test.MyFirstTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
