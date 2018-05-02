@@ -1,6 +1,6 @@
 package base;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeTest;
@@ -11,9 +11,9 @@ public class Config extends WebDriverFunctions{
 	
 
 	
-	Scanner BrowserName=new Scanner(System.in);
-	//System.out.println("Which browser would you like to use?");
-	String Browser =BrowserName.next();
+//	Scanner BrowserName=new Scanner(System.in);
+//	//System.out.println("Which browser would you like to use?");
+//	public String Browser =BrowserName.next();
 
 
 
@@ -22,7 +22,7 @@ public class Config extends WebDriverFunctions{
 	// setup browser
 	// company url
 	// xyz
-	//public String Browser="ff";
+	public String Browser="ff";
 
 	@BeforeTest
 	
