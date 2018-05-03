@@ -1,37 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="1" total="2" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5648" started-at="2018-05-02T19:18:51Z" finished-at="2018-05-02T19:18:56Z">
+  <suite name="Default suite" duration-ms="6327" started-at="2018-05-03T15:16:07Z" finished-at="2018-05-03T15:16:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5648" started-at="2018-05-02T19:18:51Z" finished-at="2018-05-02T19:18:56Z">
+    <test name="Default test" duration-ms="6327" started-at="2018-05-03T15:16:07Z" finished-at="2018-05-03T15:16:14Z">
       <class name="test.MyFirstTest">
-        <test-method status="PASS" signature="initDrivers()[pri:0, instance:test.MyFirstTest@77cd7a0]" name="initDrivers" is-config="true" duration-ms="5458" started-at="2018-05-02T19:18:51Z" finished-at="2018-05-02T19:18:56Z">
+        <test-method status="PASS" signature="initDrivers()[pri:0, instance:test.MyFirstTest@544fe44c]" name="initDrivers" is-config="true" duration-ms="6077" started-at="2018-05-03T15:16:07Z" finished-at="2018-05-03T15:16:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDrivers -->
-        <test-method status="FAIL" signature="testingFramework()[pri:0, instance:test.MyFirstTest@77cd7a0]" name="testingFramework" duration-ms="160" started-at="2018-05-02T19:18:56Z" finished-at="2018-05-02T19:18:56Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="testingFramework()[pri:0, instance:test.MyFirstTest@544fe44c]" name="testingFramework" duration-ms="217" started-at="2018-05-03T15:16:13Z" finished-at="2018-05-03T15:16:14Z">
+          <exception class="org.openqa.selenium.InvalidElementStateException">
             <message>
-              <![CDATA[Unable to locate element: //*[@id='paass']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[Unable to clear element that cannot be edited: <input id="u_0_2" type="submit">
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'
-System info: host: 'Mohammeds-MacBook-Air.local', ip: 'fe80:0:0:0:14f5:53ca:9a99:c762%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_171'
+System info: host: 'Mohammeds-MacBook-Air.local', ip: 'fe80:0:0:0:4c0:6cca:8ced:720%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 941, moz:profile: /var/folders/b0/qf7lnt7x1_s..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 4cfa233a-3053-1642-a944-634c0bca452d
-*** Element info: {Using=xpath, value=//*[@id='paass']}]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 1854, moz:profile: /var/folders/b0/qf7lnt7x1_s..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f03cc245-ddcc-414e-8863-923818114a85]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id='paass']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.InvalidElementStateException: Unable to clear element that cannot be edited: <input id="u_0_2" type="submit">
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'
-System info: host: 'Mohammeds-MacBook-Air.local', ip: 'fe80:0:0:0:14f5:53ca:9a99:c762%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_171'
+System info: host: 'Mohammeds-MacBook-Air.local', ip: 'fe80:0:0:0:4c0:6cca:8ced:720%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 941, moz:profile: /var/folders/b0/qf7lnt7x1_s..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 4cfa233a-3053-1642-a944-634c0bca452d
-*** Element info: {Using=xpath, value=//*[@id='paass']}
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 1854, moz:profile: /var/folders/b0/qf7lnt7x1_s..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f03cc245-ddcc-414e-8863-923818114a85
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -42,12 +38,9 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
-at utils.WebDriverFunctions.typeByXpath(WebDriverFunctions.java:11)
-at test.MyFirstTest.testingFramework(MyFirstTest.java:25)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:118)
+at test.MyFirstTest.testingFramework(MyFirstTest.java:27)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -75,7 +68,7 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.InvalidElementStateException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testingFramework -->

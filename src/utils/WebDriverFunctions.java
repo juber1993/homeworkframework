@@ -13,7 +13,7 @@ public class WebDriverFunctions {
 
 	}
 
-	public void typebyXpath2(String x) {
-		driver.findElement(By.xpath(x)).click();
-	}
+//	public void typebyXpath2(String x) {
+//		driver.findElement(By.xpath(x)).click();
+//	}
 }
