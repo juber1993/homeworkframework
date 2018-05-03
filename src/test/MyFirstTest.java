@@ -1,5 +1,6 @@
 package test;
 
+import org.openqa.selenium.By;
 import org.testng.SkipException;
 import org.testng.annotations.Test;
 
@@ -23,14 +24,15 @@ public class MyFirstTest extends Config {
 		typeByXpath(loc.emailxpath, val.Email);
 		APPLICATION_LOGS.debug("User was able to type their email. email name was: "+ val.Email);
 		typeByXpath(loc.idxpath, val.Pass );
+		driver.findElement(By.xpath("//input[@id=\'u_0_2\']")).clear();
 	}
-	@Test (enabled=false)
-	public void skipping() {
-		typebyXpath2(loc.signbutton);
-		APPLICATION_LOGS.debug("My TEST Ended");
-		throw new SkipException("This will skip");
+//	@Test (enabled=false)
+//	public void skipping() {
+//		typebyXpath2(loc.signbutton);
+//		APPLICATION_LOGS.debug("My TEST Ended");
+//		throw new SkipException("This will skip");
 
-	}
+//	}
 
 
 

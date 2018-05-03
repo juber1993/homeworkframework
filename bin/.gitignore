@@ -1,2 +1,4 @@
-/base/
+/log4j.properties
+/test/
+/utils/
 /locators/
